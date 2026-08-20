@@ -1,0 +1,19 @@
+{
+    "name": "mb/module-admin-category-style",
+    "description": "Highlights inactive categories with a lighter font color in the Magento Admin category tree.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MB\\AdminCategoryStyle\\": ""
+        }
+    }
+}
