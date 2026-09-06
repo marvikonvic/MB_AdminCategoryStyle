@@ -18,6 +18,17 @@ Modul je funkcionalno testiran na Magento staging okruženju. Neaktivne kategori
 
 ![Prikaz aktivnih i neaktivnih kategorija u Magento Admin panelu](docs/images/admin-category-tree-stage.png)
 
+### Zašto modul umesto izmene teme?
+
+- Ne menja Magento core niti `vendor/` fajlove, pa Magento nadogradnja ne briše izmenu.
+- CSS se učitava samo na stranici **Catalog > Categories** i ne utiče na ostatak Admin panela.
+- Ne zavisi od storefront teme i radi uz Luma, Hyvä ili drugu temu. Izmena u običnoj storefront temi uglavnom se uopšte ne učitava u Admin panelu.
+- Posebna Admin tema može postići sličan rezultat, ali tada je funkcija vezana za tu temu i teže se prenosi između projekata.
+- Modul se jednostavno uključuje, isključuje, verzioniše i instalira na drugom Magento projektu.
+- Ne menja podatke niti ponašanje kategorija, već samo njihov vizuelni prikaz.
+
+Zaseban modul je zato čistije, stabilnije i dugoročno jednostavnije rešenje.
+
 ### Kompatibilnost
 
 - Magento Open Source 2.4.5+
@@ -98,6 +109,17 @@ The module uses Magento's existing `not-active-category` CSS class. It does not 
 The module has been functionally tested in a Magento staging environment. Inactive categories are displayed with a lighter font color, while active categories retain their original appearance.
 
 ![Active and inactive categories in the Magento Admin panel](docs/images/admin-category-tree-stage.png)
+
+### Why use a module instead of changing a theme?
+
+- It does not modify Magento core or `vendor/` files, so Magento upgrades do not remove the customization.
+- The CSS loads only on **Catalog > Categories** and does not affect the rest of the Admin panel.
+- It is independent of the storefront theme and works with Luma, Hyvä, or another theme. A regular storefront-theme change is generally not loaded in the Admin panel at all.
+- A dedicated Admin theme can achieve a similar result, but the feature then becomes coupled to that theme and is harder to move between projects.
+- The module is easy to enable, disable, version, and install on another Magento project.
+- It changes only the visual presentation, not category data or behavior.
+
+A standalone module is therefore a cleaner, more stable, and easier long-term solution.
 
 ### Compatibility
 
