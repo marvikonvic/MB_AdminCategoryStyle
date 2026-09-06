@@ -14,7 +14,7 @@ Modul koristi postojeću Magento CSS klasu `not-active-category`. Ne menja Magen
 
 ### Testirano na staging okruženju
 
-Modul je funkcionalno testiran na Magento staging okruženju. Neaktivne kategorije prikazane su svetlijim fontom, dok aktivne kategorije zadržavaju originalni izgled.
+Modul je funkcionalno testiran na Magento Open Source verziji v2.4.7-p3 u staging okruženju. Neaktivne kategorije prikazane su svetlijim fontom, dok aktivne kategorije zadržavaju originalni izgled.
 
 ![Prikaz aktivnih i neaktivnih kategorija u Magento Admin panelu](docs/images/admin-category-tree-stage.png)
 
@@ -106,7 +106,7 @@ The module uses Magento's existing `not-active-category` CSS class. It does not 
 
 ### Staging test
 
-The module has been functionally tested in a Magento staging environment. Inactive categories are displayed with a lighter font color, while active categories retain their original appearance.
+The module has been functionally tested on Magento Open Source v2.4.7-p3 in a staging environment. Inactive categories are displayed with a lighter font color, while active categories retain their original appearance.
 
 ![Active and inactive categories in the Magento Admin panel](docs/images/admin-category-tree-stage.png)
 
