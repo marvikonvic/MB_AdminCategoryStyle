@@ -1,4 +1,4 @@
-# MB_AdminCategoryStyle
+# MB_AdminCategoryStyle 1.0.0
 
 ## Srpski
 
