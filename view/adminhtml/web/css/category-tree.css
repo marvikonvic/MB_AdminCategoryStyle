@@ -1,4 +1,6 @@
 /* Keep active categories unchanged and soften only inactive category labels. */
+#tree-div .jstree-node.no-active-category > .jstree-anchor,
+#tree-div .jstree-node.not-active-category > .jstree-anchor,
 #tree-div .jstree-anchor.not-active-category {
     color: #777;
 }
