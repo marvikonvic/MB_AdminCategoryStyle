@@ -1,5 +1,10 @@
 # MB_AdminCategoryStyle 1.0.0
 
+[![Version](https://img.shields.io/badge/version-1.0.0-0A66C2.svg)](https://github.com/marvikonvic/MB_AdminCategoryStyle)
+[![Magento](https://img.shields.io/badge/Magento-2.4.5%2B-EE672F.svg?logo=magento&logoColor=white)](https://github.com/marvikonvic/MB_AdminCategoryStyle)
+[![PHP](https://img.shields.io/badge/PHP-8.3%20tested-777BB4.svg?logo=php&logoColor=white)](https://www.php.net/)
+[![License](https://img.shields.io/badge/license-GPL--3.0--or--later-2EA44F.svg)](LICENSE)
+
 ## Srpski
 
 `MB_AdminCategoryStyle` je mali Magento 2 modul koji olakšava vizuelno razlikovanje aktivnih i neaktivnih kategorija u Admin panelu.
